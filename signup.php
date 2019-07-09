@@ -13,7 +13,7 @@
 <title>Music Store</title>
 <style>
 body{
-	color : white;
+	color : black;
 }
 .back{
 
