@@ -43,7 +43,7 @@ echo $row['regemail'];
 }
 else
 {
-	echo "Not Successful" .mysqli_error($link);
+	echo "unsuccessful" .mysqli_error($link);
 	
 }
 
