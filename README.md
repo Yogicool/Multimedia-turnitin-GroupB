@@ -1,2 +1,0 @@
-# Multimedia-turnitin
-music project
