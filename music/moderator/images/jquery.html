@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+$(document).ready(
+function(){
+  $("#start").click(function(){
+    $("div").animate({top : '200px'},"fast");
+	$("div").animate({left : '675px'},"fast");
+	$("div").animate({top : '50px'},"fast");
+	$("div").animate({left : '110px'},"fast");
+  });
+  $("#stop").click(function(){
+  	$("div").stop();
+	});
+});
+</script>
+</head>
+<body>
+<button id="start">START</button>
+<button id="stop">STOP</button>
+<div style="background-color:red;height:150px;width:150px;position:absolute"></div>
+</body>
+</html>
